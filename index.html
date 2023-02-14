@@ -2,13 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Sign Up Form</title>
 </head>
 <body>
-    <h1>Sign Up Sheet</h1>
-    
+    <div id="container">
+        <div id="backgroundPic">
+            <h3 id="titleCover">Odin</h3>
+            <footer id="credit">Photo by <a id="halleSite" href="https://unsplash.com/@haliewestphoto">Halie West</a>
+            on <a id="unsplash" href="https://unsplash.com/">Unsplash</a></footer>
+        </div>
+        <div id="formDiv">
+            <div id="infoHeading">
+                <h4 id="text">This is not a real online service! You know you need something like
+                    this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started
+                </h4>
+                <h4>You <em>know</em> you want to</h4>
+            </div>
+            <div id="form">
+                <div>
+                    <h4 id="goTime">Let's do this!</h4>
+                </div>
+                <form action="submit">
+                    <fieldset id="questionnaire">
+                        
+                        <div id="inputs">
+                            <div id="leftList">
+                                <div>
+                                    <input type="text" id="firstName" name="firstName" placeholder="Jeff">
+                                    <label id="labelFName" for="firstName">FIRST NAME</label>
+                                </div>
+                                <div>
+                                    <input type="email" id="email" name="email" placeholder="jeff@hello.com">
+                                    <label id="labelEmail" for="email">EMAIL</label>
+                                </div>
+                                <div>
+                                    <input type="password" id="password" name="password" placeholder="Minimum 8 Char" min="8">
+                                    <label id="labelPassword" for="password">PASSWORD</label>
+                                </div>
+                            </div>
+                            <div id="rightList">
+                                <div>
+                                    <input type="text" id="lastName" name="lastName" placeholder="Guy">
+                                    <label id="labelLName" for="lastName">LAST NAME</label>
+                                </div>
+                                <div>
+                                    <input type="number" id="phone" name="phone" placeholder="123-456-7890">
+                                    <label id="labelPhone" for="phone">PHONE</label>
+                                </div>
+                                <div>
+                                    <input type="password" id="password" name="password" placeholder="Must Match">
+                                    <label id="labelPassword" for="password">PASSWORD</label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset id="submission">
+                        <div id="creation">
+                            <button type="submit">Create Account</button>
+                        </div>
+                        <div id="logIn">
+                            <p>Already have an account? <a href="">Log in</a></p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
