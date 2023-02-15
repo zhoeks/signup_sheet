@@ -60,7 +60,6 @@ h3, footer {
     align-content: stretch;
     background-color: rgb(218, 214, 214);
     border-top: 2px solid grey;
-    
 }
 
 h2 {
@@ -109,6 +108,15 @@ button {
     font-weight: bold;
 }
 
-input:active {
-    border: 5px solid lightblue
+input {
+    box-shadow: 2px 2px white;
+}
+
+input:focus {
+    border: 5px solid lightblue;
+    box-shadow: 3px 3px lightblue;
+}
+
+input:invalid {
+    border: 3px solid red;
 }
